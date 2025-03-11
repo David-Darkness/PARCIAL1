@@ -1,0 +1,27 @@
+.d-block{
+    width: 100%;
+    min-height: 350px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.img-navbar{
+    max-width: 50px;
+    min-width: 50px;
+}
+
+.carousel{
+    margin-bottom: 20px;
+}
+
+.text-btns{
+    margin: 30px;
+}
+
+.btn{
+    background-color: rgb(25, 101, 189);
+}
+
+.btn:hover{
+    background-color: rgb(96, 135, 180);
+}

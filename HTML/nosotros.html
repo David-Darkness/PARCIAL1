@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/nosotros.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+           <img src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-38/256/Prey-logo-1-icon.png" class="img-navbar">  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Log In</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Sección Sobre Nosotros -->
+    <div class="container mt-4">
+        <h2 class="text-center">Sobre Nosotros</h2>
+        
+        <!-- Acordeón -->
+        <div class="accordion" id="accordionEmpresa">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#empresaInfo">
+                        Sobre la Empresa
+                    </button>
+                </h2>
+                <div id="empresaInfo" class="accordion-collapse collapse show" data-bs-parent="#accordionEmpresa">
+                    <div class="accordion-body">
+                        Información general sobre la empresa.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mision">
+                        Misión
+                    </button>
+                </h2>
+                <div id="mision" class="accordion-collapse collapse" data-bs-parent="#accordionEmpresa">
+                    <div class="accordion-body">
+                        Nuestra misión es pasar Programación Web.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vision">
+                        Visión
+                    </button>
+                </h2>
+                <div id="vision" class="accordion-collapse collapse" data-bs-parent="#accordionEmpresa">
+                    <div class="accordion-body">
+                        Nuestra visión es sacar buena nota en el primer parcial.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección Equipo -->
+        <h2 class="text-center mt-5">Nuestro Equipo</h2>
+        <div class="row justify-content-center">
+            <!-- Tarjeta de empleado -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg" class="card-img-top mx-auto mt-3" alt="Empleado 1">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repetir para más empleados -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg" class="card-img-top mx-auto mt-3" alt="Empleado 2">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg" class="card-img-top mx-auto mt-3" alt="Empleado 3">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="social-icons">
+                            <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
