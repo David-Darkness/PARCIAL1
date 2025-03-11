@@ -39,8 +39,4 @@ function validarFormulario() {
     console.log("Contraseña: " + password);
 }
 
-// Función para redirigir
-function redirectToRegister() {
-    window.location.href = "../index.html";
-}
 
